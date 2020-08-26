@@ -23,7 +23,7 @@ public class LevelSelector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(Time.timeScale);
+       
         // set level backgroud: lock or unlocked
         Transform[] levelsBG = levelsGrid.GetComponentsInChildren<Transform>(); // get array of all the children of the grid
         int levelsPassed = 0;

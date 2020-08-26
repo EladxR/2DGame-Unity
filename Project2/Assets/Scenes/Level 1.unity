@@ -3904,6 +3904,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 8.61964
       objectReference: {fileID: 0}
+    - target: {fileID: 4164351748062351565, guid: d20d05f7f2419f144a38010d1b91646f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5299309883529820240, guid: d20d05f7f2419f144a38010d1b91646f, type: 3}
       propertyPath: m_Name
       value: Character
