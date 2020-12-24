@@ -6,12 +6,8 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+    public GameObject howToPlayPanel;
    
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
 
     public void ToLevelSelect()
     {
@@ -37,5 +33,13 @@ public class Menu : MonoBehaviour
     public void toSettings()
     {
         SceneManager.LoadScene("Settings");
+    }
+    public void onHowToPlay()
+    {
+        howToPlayPanel.SetActive(true);
+    }
+    public void onCloseHowToPlay()
+    {
+        howToPlayPanel.SetActive(false);
     }
 }

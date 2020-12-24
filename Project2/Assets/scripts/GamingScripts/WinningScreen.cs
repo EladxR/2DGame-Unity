@@ -21,6 +21,10 @@ public class WinningScreen : MonoBehaviour
         {
             Loader.Load("Level " + (level + 1));
         }
+        if (level == maxLevel)
+        {
+            Loader.Load("Game Finished");
+        }
     }
     public void onBack()
     {
